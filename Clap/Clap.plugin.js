@@ -42,7 +42,7 @@ module.exports = (() => {
                 twitter_username: ''
              }
           ],
-          version: '1.0.0',
+          version: '1.0.1',
           description: 'Clapify Your messages.',
           github: 'https://github.com/wolfkid200444',
           github_raw: 'https://raw.githubusercontent.com/wolfkid200444/better-discord-plugins/master/Clap/Clap.plugin.js'
@@ -70,7 +70,7 @@ module.exports = (() => {
           };
  
           stop() {
-             commands.unregister('mock');
+             commands.unregister('clap');
           };
        };
     };
